@@ -13,8 +13,7 @@ node{
 
   //Stage 1 : Build the docker image.
   stage('Build image') {
-      sh("docker login --username=nagaraj1171")
-      sh("docker build -t nagaraj1171/${imageTag} .")
+      sh("docker build --t nagaraj1171/${imageTag} .")
   }
 
   //Stage 2 : Push the image to docker registry
