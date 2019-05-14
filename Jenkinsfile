@@ -13,7 +13,7 @@ node{
 
   //Stage 1 : Build the docker image.
   stage('Build image') {
-      sh("docker login docker.io")
+      sh("docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD")
       sh("docker build -t nagaraj1171/${imageTag} .")
   }
 
