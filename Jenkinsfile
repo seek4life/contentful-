@@ -18,7 +18,7 @@ node{
 
   //Stage 2 : Push the image to docker registry
   stage('Push image to registry') {
-      sh("docker push nagaraj1171:${imageTag}")
+      sh("docker push nagaraj1171/${imageTag}")
   }
 
 }
