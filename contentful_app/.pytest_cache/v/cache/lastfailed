@@ -1,0 +1,10 @@
+{
+  "tests/i18n/test_i18n.py": true,
+  "tests/lib/test_breadcrumb.py": true,
+  "tests/lib/test_entry_state.py": true,
+  "tests/routes/test_courses.py": true,
+  "tests/routes/test_imprint.py": true,
+  "tests/routes/test_index.py": true,
+  "tests/routes/test_settings.py": true,
+  "tests/test_app.py": true
+}

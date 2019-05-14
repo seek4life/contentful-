@@ -1,0 +1,5 @@
+{
+  "routes/test_settings.py::SettingsTest::test_reset_restores_defaults": true,
+  "test_app.py::AppTest": true,
+  "test_app.py::IntegrationTestBase": true
+}
